@@ -97,6 +97,7 @@
 #define RT_USING_PIN
 #define RT_USING_SPI
 #define RT_USING_TOUCH
+#define RT_TOUCH_PIN_IRQ
 
 /* Using USB */
 
@@ -224,7 +225,6 @@
 #define GT1151_TOUCH_WIDTH 800
 #define GT1151_TOUCH_HEIGHT 480
 #define GT1151_SUPPORT_POINTS 10
-#define RT_TOUCH_PIN_IRQ
 /* end of gt1151 options */
 /* end of peripheral libraries and drivers */
 
