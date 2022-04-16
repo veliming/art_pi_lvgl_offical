@@ -11,6 +11,9 @@
 #include <lvgl.h>
 #include <lv_port_indev.h>
 
+//#include <lv_demo_stress.h>
+//#include <lv_demo_benchmark.h>
+//#include <lv_demo_stress.h>
 #include <lv_demo_widgets.h>
 
 #define DBG_TAG    "LVGL.demo"
@@ -38,7 +41,7 @@ static void lvgl_thread(void *parameter)
     while(1)
     {
         lv_task_handler();
-        rt_thread_mdelay(10);
+//        rt_thread_mdelay(10);
     }
 }
 
