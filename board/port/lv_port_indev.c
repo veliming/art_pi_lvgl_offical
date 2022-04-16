@@ -146,7 +146,6 @@ static bool touchpad_is_pressed(void)
 static void touchpad_get_xy(lv_coord_t * x, lv_coord_t * y)
 {
     /*Your code comes here*/
-    LOG_I("\t x: %d, y: %d", data[0].x_coordinate, data[0].y_coordinate);
     (*x) = data[0].x_coordinate;
     (*y) = data[0].y_coordinate;
     rt_memset(&data, 0, sizeof(data));

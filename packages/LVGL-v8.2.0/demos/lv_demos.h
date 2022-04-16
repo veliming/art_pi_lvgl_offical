@@ -35,6 +35,18 @@ extern "C" {
     #include "music/lv_demo_music.h"
 #endif
 
+#if LV_USE_DEMO_MUSIC
+    #include "music/lv_demo_music.h"
+#endif
+
+#if LV_USE_DEMO_AUDIO
+    #include "audio_mixer/ui.h"
+#endif
+
+#if LV_USE_DEMO_3D
+    #include "3d_printer/ui.h"
+#endif
+
 /*********************
  *      DEFINES
  *********************/

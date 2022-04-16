@@ -79,6 +79,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc://${ProjName}//packages/LVGL-v8.2.0/demos/keypad_encoder}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc://${ProjName}//packages/LVGL-v8.2.0/demos/music/assets}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc://${ProjName}//packages/LVGL-v8.2.0/demos/music}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc://${ProjName}//packages/LVGL-v8.2.0/demos/audio_mixer}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc://${ProjName}//packages/LVGL-v8.2.0/demos/stress/assets}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc://${ProjName}//packages/LVGL-v8.2.0/demos/stress}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc://${ProjName}//packages/LVGL-v8.2.0/demos/widgets/assets}&quot;"/>

@@ -23,9 +23,11 @@
 //Ñ¡Ôñdemo
 //#define LV_USE_DEMO_MUSIC           1
 //#define LV_USE_DEMO_BENCHMARK       1
-//#define LV_USE_DEMO_KEYPAD_AND_ENCODER  0
+//#define LV_USE_DEMO_KEYPAD_AND_ENCODER  1
 //#define LV_USE_DEMO_STRESS          1
-#define LV_USE_DEMO_WIDGETS         1
+//#define LV_USE_DEMO_WIDGETS         1
+//#define LV_USE_DEMO_3D       1
+//#define LV_USE_DEMO_AUDIO           1
 
 #define LV_FONT_MONTSERRAT_12       1
 #define LV_FONT_MONTSERRAT_16       1

@@ -11,10 +11,8 @@
 #include <lvgl.h>
 #include <lv_port_indev.h>
 
-//#include <lv_demo_stress.h>
-//#include <lv_demo_benchmark.h>
-//#include <lv_demo_stress.h>
-#include <lv_demo_widgets.h>
+#include <lv_demos.h>
+
 
 #define DBG_TAG    "LVGL.demo"
 #define DBG_LVL    DBG_INFO
@@ -35,13 +33,13 @@ static void lvgl_thread(void *parameter)
 
     /* display demo; you may replace with your LVGL application at here */
 
-    lv_demo_widgets();
+    ui_3d_init();
 
     /* handle the tasks of LVGL */
     while(1)
     {
         lv_task_handler();
-//        rt_thread_mdelay(10);
+        rt_thread_mdelay(10);
     }
 }
 

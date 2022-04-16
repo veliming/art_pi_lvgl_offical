@@ -79,6 +79,7 @@ RM := rm -rf
 -include packages/LVGL-v8.2.0/demos/keypad_encoder/subdir.mk
 -include packages/LVGL-v8.2.0/demos/benchmark/assets/subdir.mk
 -include packages/LVGL-v8.2.0/demos/benchmark/subdir.mk
+-include packages/LVGL-v8.2.0/demos/3d_printer/subdir.mk
 -include libraries/drivers/subdir.mk
 -include libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src/subdir.mk
 -include libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/subdir.mk

@@ -27,6 +27,7 @@ libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc \
 libraries/STM32H7xx_HAL/CMSIS/Device/ST/STM32H7xx/Source/Templates \
 libraries/STM32H7xx_HAL/STM32H7xx_HAL_Driver/Src \
 libraries/drivers \
+packages/LVGL-v8.2.0/demos/3d_printer \
 packages/LVGL-v8.2.0/demos/benchmark/assets \
 packages/LVGL-v8.2.0/demos/benchmark \
 packages/LVGL-v8.2.0/demos/keypad_encoder \
